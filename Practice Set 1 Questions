@@ -1,0 +1,12 @@
+/* Write a Program using prompt function to take input of age as a value from the user and use alert to tell him if he can drive! */
+let age= prompt("Enter your Age")
+age =Number.parseInt(age)
+const candrive(age) =>{
+  return age>18?true:false
+}
+if(candrive(age)){
+  alert("Yes you can Drive! ")
+}
+else {
+  alert("You can't Drive")
+}
