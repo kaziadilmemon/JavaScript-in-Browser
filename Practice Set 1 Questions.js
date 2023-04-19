@@ -67,3 +67,9 @@ number = Number.parseInt(number)
 if (number > 4) {
   location.href = "https://google.com"
 }
+
+/* Question 5 : Change the background of the page to yellow,red or any other color based on user input through prompt */
+
+let color = prompt("Enter the page background color")
+document.body.style.background = color
+
