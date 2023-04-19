@@ -17,6 +17,9 @@ For Example: <head> and <body> are Siblings.
 
 => <body> is said to be the "next" or "right" sibling of <head>,<head> is said to be the "previous" are "left" sibling of <body>
 
-=> The next sibling is in next Sibling property, and the previous one in previous String
+=> The next sibling is in next Sibling property, and the previous one in previousSibling.
+The parent is available as parentNode.
 
+alert(document.documentElement.parentNode); //document
+alert(document.documentElement.parentElement); //null
   
