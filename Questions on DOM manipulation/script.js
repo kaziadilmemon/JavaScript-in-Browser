@@ -13,7 +13,17 @@ document.getElementsByTagName("nav")[0].firstElementChild.style.color = "green"
 
 document.getElementsByTagName("nav")[0].lastElementChild.style.color = "green"
 
-/* Question : 04 Write a JavaScript code to change background of all <li> tags to cyan.
+/* Question : 04 Write a JavaScript code to change background of all <li> tags to cyan. */
+
   Array.from(document.getElementsByTagName("li")).forEach((element) =>{
   element.style.background = "cyan";
 })  
+
+/* Question : 05 Which of the following is used to look for the farthest ancestor that matches a given CSS Selector.
+(a) matches
+(b) closest
+(c) contains
+(d) none of these.
+
+So the Answer is none of these.
+    
