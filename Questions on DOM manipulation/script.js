@@ -1,4 +1,5 @@
 /* Question : 01 Create a navbar and change the color of its first element to red.*/
+
 document.getElementsByTagName("nav")[0].firstElementChild.style.color="red"
 
 /* Question : 02 Create a table without tbody Now use "view page source" to check whether it has a tbody or not.
@@ -24,6 +25,3 @@ document.getElementsByTagName("nav")[0].lastElementChild.style.color = "green"
 (b) closest
 (c) contains
 (d) none of these.
-
-So the Answer is none of these.
-    
