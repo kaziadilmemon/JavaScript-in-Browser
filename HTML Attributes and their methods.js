@@ -25,4 +25,5 @@ console.log(first.attributes)
 /* We can always create custom attributes but the ones Starting with "data". If an Element has an attribute named "data-one" its available on element-dataset.one */
 
 console.log(first.dataset)
-console.log(first.dataset.game)ole.log(first.dataset.player)
+console.log(first.dataset.game)
+console.log(first.dataset.player)
