@@ -17,7 +17,3 @@ first.setAttribute("class", "true Adil")
 /* 4 elem.removeAttribute(name) : Method to remove the attribute from element */
 
 first.removeAttribute("class")
-
-/* 5 elem.attributes : Method to get the Collection of all attributes. */
-
-console.log(first.attributes) 
