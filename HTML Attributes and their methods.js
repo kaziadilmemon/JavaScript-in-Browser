@@ -14,10 +14,12 @@ let a = first.getAttribute("class")
 // first.setAttribute("hidden", "true")
 // first.setAttribute("class", "true sachin")
 
-/* 4 elem.removeAttribute(name) :
+/* 4 elem.removeAttribute(name) : Method to remove the attribute from element */
 
 // first.removeAttribute("class")
-// console.log(first.attributes)
-console.log(first.dataset)
-console.log(first.dataset.game)
-console.log(first.dataset.play
+
+/* 5 elem.attributes : Method to get the Collection of all attributes. */
+
+// console.log(first.attributes) 
+
+/* We can always 
