@@ -17,3 +17,12 @@ first.setAttribute("class", "true Adil")
 /* 4 elem.removeAttribute(name) : Method to remove the attribute from element */
 
 first.removeAttribute("class")
+
+/* 5 elem.attributes : Method to get the Collection of all attributes. */
+
+console.log(first.attributes) 
+
+/* We can always create custom attributes but the ones Starting with "data". If an Element has an attribute named "data-one" its available on element-dataset.one */
+
+console.log(first.dataset)
+console.log(first.dataset.game)ole.log(first.dataset.player)
