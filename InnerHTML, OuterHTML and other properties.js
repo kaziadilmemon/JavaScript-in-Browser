@@ -20,5 +20,9 @@ first.innerHTML
  first.outerHTML 
  first.outerHTML = "<div>hey</div>"
  document.body.firstChild.data 
+
+/* text Content: provides access to the text inside the element : only text*/
+
  console.log(document.body.textContent)
+/* hidden Property: The hidden attribute and the DOM property specifies whether the element is visible or not. */
  first.hidden = false
