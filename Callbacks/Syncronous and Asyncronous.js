@@ -1,5 +1,7 @@
 /* Asyncronous actions are the actions that we initiate now and finish later. eg:setTimeout */
-//Asyncronous programming: 
+
+// Asyncronous Programming : 
+
 console.log("start")
 setTimeout(function() {
   console.log("Hey I am good")
@@ -7,3 +9,5 @@ setTimeout(function() {
 console.log("End")
 
 /* Syncronous actions are the actions that initiate and finish one-by-one */
+
+// Syncronous Programming : 
