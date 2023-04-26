@@ -10,3 +10,4 @@ div.innerHTML = '<h1>Hello World!</h1>';
  a.before(div);  // Insert before node.
  a.after(div);  // Insert after node.
  a.replaceWith(div); //replaces node with the given node.
+
