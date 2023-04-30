@@ -34,6 +34,7 @@ while (runAgain) {
 }
 
 
+
 /* Question 3 : In the previous Question, use console.error to log the error if the age is entered is negative. */
 
 let runAgain = true;
