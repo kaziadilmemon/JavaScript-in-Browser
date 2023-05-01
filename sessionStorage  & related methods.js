@@ -14,8 +14,6 @@
 
 We can listen the onstorage event of window which is triggerid which update made to the same Storage.
 
-
-
 // sessionStorage.getItem("name")
 // sessionStorage.clear()
 // sessionStorage.removeItem("name")
