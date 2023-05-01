@@ -5,11 +5,6 @@
 => Both Key and Values must be Strings.
 => We can use the two JSON methods to store objects in localStorage.*/
 
-
-
-
-
-
 let key = prompt("Enter key you want to set")
 let value = prompt("Enter value you want to set")
 
