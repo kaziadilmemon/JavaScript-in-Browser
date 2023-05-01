@@ -1,4 +1,5 @@
 /* used lessoften than localStorage. Properties and methods are same as local storage but:
+
 1) The session Storage exists only within the current browser tab.Another tab with same page will have a different storage.
 
 2) The data survives page refresh,but not closing/opening the tab.
