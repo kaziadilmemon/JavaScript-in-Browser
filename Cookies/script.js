@@ -14,9 +14,6 @@ Cookies are small Strings of data stored directly in the browser.In javascript,d
  
  */
 
-
-
-
 console.log(document.cookie)
 document.cookie = "name=harry1122334400"
 document.cookie = "name2=harry11223344002"
